@@ -44,6 +44,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title("プログラミング講師ChatGPT")
+st.image("04_programming.png")
 st.write("プログラミングのことなら、なんでも聞いてね")
 
 user_input = st.text_input("では、質問をどうぞ！。", key="user_input", on_change=communicate)
